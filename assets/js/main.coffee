@@ -1,0 +1,2 @@
+$ ->
+  alert("jQuery is working!")
