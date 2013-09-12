@@ -1,2 +1,2 @@
 $ ->
-  alert("jQuery is working!")
+  console.log "jQuery is working!"
