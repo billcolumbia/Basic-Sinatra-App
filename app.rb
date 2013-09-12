@@ -6,7 +6,7 @@ require_relative 'asset_compiler'
 gem 'guard-livereload'
 
 get '/' do
-  erb :index
+  haml :index
 end
 
 use SassHandler
