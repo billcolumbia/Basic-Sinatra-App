@@ -13,3 +13,4 @@ use SassHandler
 use CoffeeHandler
 set :public, File.dirname(__FILE__) + '/public'
 set :views, File.dirname(__FILE__) + '/views'
+set :bind, '0.0.0.0'
