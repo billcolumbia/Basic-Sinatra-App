@@ -1,9 +1,8 @@
-require 'rubygems'
 require 'sinatra'
+require 'slim'
+require 'coffee-script'
 require 'sass'
 require_relative 'asset_compiler'
-
-gem 'guard-livereload'
 
 get '/' do
   haml :index
