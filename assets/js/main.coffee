@@ -1,2 +1,2 @@
 $ ->
-  console.log "jQuery is working!"
+  console.log "Quasar operational."
