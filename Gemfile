@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'sinatra'
 gem 'slim'
+gem 'haml'
 gem 'sass'
 gem 'coffee-script'
 
