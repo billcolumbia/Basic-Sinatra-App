@@ -1,12 +1,11 @@
 require 'sinatra'
 require 'slim'
-require 'haml'
 require 'coffee-script'
 require 'sass'
 require_relative 'asset_compiler'
 
 get '/' do
-  haml :index
+  slim :index
 end
 
 use SassHandler

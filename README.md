@@ -5,7 +5,7 @@ A small starting point for a Sinatra app. Good for prototyping.
 Live Reload
 Sass
 CoffeeScript
-Slim / Haml / Erb
+Slim / Erb
 
 ## Usage
 - Clone the repo
