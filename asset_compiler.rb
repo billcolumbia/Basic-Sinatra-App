@@ -1,4 +1,4 @@
-class SassHandler < Sinatra::Base
+class SassCompiler < Sinatra::Base
   set :views, File.dirname(__FILE__) + '/assets/stylesheets'
 
   get '/css/*.css' do
@@ -7,7 +7,7 @@ class SassHandler < Sinatra::Base
   end
 end
 
-class CoffeeHandler < Sinatra::Base
+class CoffeeCompiler < Sinatra::Base
   set :views, File.dirname(__FILE__) + '/assets/js'
 
   get "/js/*.js" do
