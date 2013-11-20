@@ -16,6 +16,21 @@ A small starting point for a Sinatra app. Good for prototyping.
 - Activate the extension by clicking the button in your browser while at your projects URL (`0.0.0.0:4567` or can be changed in `app.rb`)
 - Get prototyping!!!
 
+##### Layouts
+Quasar uses layouts by default now. In `app.rb` you can specify if the view should be rendered using a layout:
+```ruby
+# Routes
+get '/' do
+  @content = data["content"]
+  # Using default layout
+  slim :view_name
+  # Using a specific layout
+  slim :view_name, :layout => :layout_view_name
+  # Using no layout
+  slim :view_name, :layout => false
+end
+```
+
 ## Deployment
 - To deploy to heroku, have the [toolbelt installed](https://toolbelt.heroku.com/)
 - run `heroku create APPNAME` more info on [heroku](https://devcenter.heroku.com/articles/git)
