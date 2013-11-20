@@ -1,2 +1,2 @@
 $ ->
-  console.log "Quasar operational."
+  console.log "Quasar operational!"
