@@ -18,6 +18,6 @@ get '/' do
 end
 
 # App Setup / Config
-set :public, File.dirname(__FILE__) + '/public'
+set :public_dir, File.dirname(__FILE__) + '/public'
 set :views, File.dirname(__FILE__) + '/views'
 set :bind, '0.0.0.0'
