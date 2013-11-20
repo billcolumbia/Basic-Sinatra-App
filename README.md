@@ -2,18 +2,18 @@
 A small starting point for a Sinatra app. Good for prototyping.
 
 ## Out of the box
-Live Reload
-Sass
-CoffeeScript
-Slim / Erb
+- Live Reload
+- Sass + Compass
+- CoffeeScript
+- Slim / Erb
 
 ## Usage
 - Clone the repo
-- Cd into repo and run `bundle`
-- In a terminal run `ruby app.rb`
+- `cd` into repo and run `bundle`
+- Run `ruby app.rb`
 - In a new terminal tab or window run `guard`
 - Make sure you have the [Live Reload Browser Extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)
-- Activate the extension by clicking on it while on your projects URL
+- Activate the extension by clicking the button in your browser while at your projects URL (`0.0.0.0:4567` or can be changed in `app.rb`)
 - Get prototyping!!!
 
 ## Deployment
